@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    background-image: url("/images/background.jpg");
+    background-size: cover;
+}
+
+#survey-form {
+    background: rgba(124, 213, 255, 0.6);
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    margin: 10%;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.options {
+    display: grid;
+    gap: 10px;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+
+#description {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+textarea {
+    width: 80%;
+    margin: 10%;
+}
+
+button {
+    margin: 5%;
+    resize: none;
+}
+
+.checkbox-label {
+    display: inline-block;
+}
