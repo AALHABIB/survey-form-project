@@ -2,22 +2,32 @@ body {
     text-align: center;
     background-image: url("/images/background.jpg");
     background-size: cover;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 25px;
 }
 
 #survey-form {
-    background: rgba(124, 213, 255, 0.6);
+    background: rgba(130, 131, 128, 0.6);
     font-family: 'Times New Roman', Times, serif;
-    display: inline-block;
-    margin: 10%;
     border-radius: 25px;
     font-weight: bold;
+    align-items: center;
+    display: grid;
+    width: auto;
+    height: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .options {
-    display: grid;
     gap: 10px;
     border: solid 1px;
     border-radius: 5px;
+    margin-right: 25px;
+    margin-left: 25px;
+    display: inline-block;
+    padding: 20px;
 }
 
 h1 {
@@ -31,13 +41,15 @@ h1 {
 }
 
 textarea {
-    width: 80%;
-    margin: 10%;
+    width: 50%;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    resize: none;
 }
 
 button {
     margin: 5%;
-    resize: none;
 }
 
 .checkbox-label {
